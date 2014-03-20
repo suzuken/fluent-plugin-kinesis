@@ -6,7 +6,7 @@ module Fluent
             super
             require 'aws-sdk'
             require 'base64'
-            require 'json'
+            require 'yajl'
             require 'logger'
         end
 
